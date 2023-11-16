@@ -1,0 +1,17 @@
+.sup-izq {
+  border-radius: 0.75rem 0 0 0.75rem;
+}
+
+.abj-der {
+  border-radius: 0 0.75rem 0.75rem 0;
+}
+
+@media (max-width: 640px) {
+  .sup-izq {
+    border-radius: 0.75rem 0.75rem 0 0;
+  }
+
+  .abj-der {
+    border-radius: 0 0 0.75rem 0.75rem;
+  }
+}
